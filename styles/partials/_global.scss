@@ -36,3 +36,13 @@ h1 {
 h2 {
     font-family: $bodyFont;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    margin: 0;
+    font-family: $bodyFont;
+}

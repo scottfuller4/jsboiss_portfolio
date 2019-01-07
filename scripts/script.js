@@ -5,7 +5,6 @@ $(function () {
 });
 
 App.init = function () {
-    console.log("hello");
     App.titleAnimation();
     App.slider();
 }
@@ -17,14 +16,6 @@ App.titleAnimation = function () {
     })
 }
 
-// App.flick = function () {
-//     $('.main-carousel').flickity({
-//         // options
-//         cellAlign: 'left',
-//         contain: true
-//     });
-// }
-
 App.slider = function () {
     $('.imageGallery').slick({
         // dots: true,
@@ -32,11 +23,11 @@ App.slider = function () {
         speed: 300,
         slidesToShow: 1,
         adaptiveHeight: true
+        // variableWidth: true
         // arrows: true
     });
 }
 
+//create an array to store all images in a collection
+//on hover of the collection on the gallery page, quickly update the 
 
-
-
-// enter.classList.remove('hidden');

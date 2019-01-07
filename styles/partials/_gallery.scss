@@ -8,10 +8,14 @@
     width: 20%;
     // border: 1px solid purple;
     .galleryAsideContent {
-        // border: 1px solid red;
-        h1 {
-            position: fixed;
-            top: 50%;
+        position: fixed; 
+        top: 50%;
+    }
+    .aboutLink {
+        position: fixed;
+        bottom: 5%;
+        a {
+            margin-right: 10px;
         }
     }
 }
@@ -56,6 +60,9 @@
         padding: 20px;
         position: relative;
         transition: 0.3s all;
+        img {
+            max-width: 100%;
+        }
     }
 }
 

@@ -198,6 +198,16 @@ h2 {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
 header {
   height: 100vh;
 }
@@ -267,9 +277,18 @@ header {
   width: 20%;
 }
 
-.galleryAside .galleryAsideContent h1 {
+.galleryAside .galleryAsideContent {
   position: fixed;
   top: 50%;
+}
+
+.galleryAside .aboutLink {
+  position: fixed;
+  bottom: 5%;
+}
+
+.galleryAside .aboutLink a {
+  margin-right: 10px;
 }
 
 .galleryMain {
@@ -328,6 +347,10 @@ header {
   transition: 0.3s all;
 }
 
+.gallery .galleryImage img {
+  max-width: 100%;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -383,5 +406,46 @@ header {
 
 .collection1 {
   overflow-y: none;
+}
+
+.about {
+  position: relative;
+}
+
+.about h2 {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  position: absolute;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10rem;
+  left: -20px;
+  top: 250px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.aboutContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: left;
+  padding-top: 200px;
+  width: 60%;
+}
+
+.aboutContainer h1 {
+  font-size: 5rem;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.aboutContainer p {
+  line-height: 2;
+  padding-left: 80px;
 }
 /*# sourceMappingURL=styles.css.map */
