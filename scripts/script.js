@@ -11,7 +11,8 @@ App.init = function () {
 
 App.titleAnimation = function () {
     $('.headerContent').on('transitionend', function () {
-        $('.headerContent').css({ alignItems: "flex-start" });
+        // $('.headerContent').css({ alignItems: "flex-start" });
+        // $('.headerContent').scrollLeft += 50;
         $('.enter').removeClass('hidden');
     })
 }

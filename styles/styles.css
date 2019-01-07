@@ -203,6 +203,10 @@ a {
   color: black;
 }
 
+a:hover {
+  color: #a6cabe;
+}
+
 p {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -375,6 +379,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  color: black;
 }
 
 .backArrow p {
