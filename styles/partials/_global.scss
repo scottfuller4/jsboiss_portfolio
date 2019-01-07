@@ -1,0 +1,38 @@
+$accentColor: #a6cabe;
+
+$titleFont: 'Montserrat', sans-serif;
+$bodyFont: 'Roboto', sans-serif;
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: $bodyFont;
+}
+
+.wrapper {
+    max-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+    // border: 2px solid blue;
+}
+
+.hidden {
+    display: none;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    font-family: $titleFont;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: $bodyFont;
+}
