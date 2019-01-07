@@ -7,7 +7,7 @@ $(function () {
 App.init = function () {
     console.log("hello");
     App.titleAnimation();
-    // App.flick();
+    App.slider();
 }
 
 App.titleAnimation = function () {
@@ -24,6 +24,18 @@ App.titleAnimation = function () {
 //         contain: true
 //     });
 // }
+
+App.slider = function () {
+    $('.imageGallery').slick({
+        // dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1,
+        adaptiveHeight: true
+        // arrows: true
+    });
+}
+
 
 
 
